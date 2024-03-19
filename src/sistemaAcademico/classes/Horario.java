@@ -11,30 +11,6 @@ public class Horario {
 		this.dia = dia;
 	}
 	
-	public int getHora_inicio() {
-		return hora_inicio;
-	}
-
-	public void setHora_inicio(int hora_inicio) {
-		this.hora_inicio = hora_inicio;
-	}
-
-	public int getHora_fim() {
-		return hora_fim;
-	}
-
-	public void setHora_fim(int hora_fim) {
-		this.hora_fim = hora_fim;
-	}
-
-	public String getDia() {
-		return dia;
-	}
-
-	public void setDia(String dia) {
-		this.dia = dia;
-	}
-	
 	@Override
 	public String toString() {
 		return 

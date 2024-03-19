@@ -14,33 +14,13 @@ public class Aluno {
 	public String getMatricula() {
 		return matricula;
 	}
-
-	public void setMatricula(String matricula) {
-		this.matricula = matricula;
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public String getEmail_academico() {
-		return email_academico;
-	}
-
-	public void setEmail_academico(String email_academico) {
-		this.email_academico = email_academico;
-	}
 	
 	@Override
 	public String toString() {
 		return 
 		"Matrícula: " + this.matricula + " | " +		
 		"Aluno: " + this.nome + " | " +
-		"Email: " + this.email_academico + "\n";
+		"Email: " + this.email_academico;
 	}
 	
 }
